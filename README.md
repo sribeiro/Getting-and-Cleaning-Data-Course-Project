@@ -27,7 +27,7 @@ The variables in the data X are sensor signals measured with waist-mounted smart
 5. Calculate a seperate dataset with the average of all measures grouped by subject and activity type
 
 ### Output, a tidy dataset
-The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average of each measure group by activity type and subject.
+The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is the average of each variable for each activity and each subject.
 
 ### Instructions given to calculate the final tidy dataset
 
