@@ -15,6 +15,8 @@ Activity is a categorical variable with the following labels:
 6. LAYING
 
 ## Tidy data structure
+
+```
 Classes ‘data.table’ and 'data.frame':	180 obs. of  68 variables:
  $ subject                    : int  1 3 5 6 7 8 11 14 15 16 ...
  $ activity                   : chr  "WALKING" "WALKING" "WALKING" "WALKING" ...
@@ -85,3 +87,4 @@ Classes ‘data.table’ and 'data.frame':	180 obs. of  68 variables:
  $ fBodyBodyGyroJerkMag-mean(): num  -0.319 -0.608 -0.548 -0.367 -0.155 ...
  $ fBodyBodyGyroJerkMag-std() : num  -0.3816 -0.5491 -0.4557 -0.4081 -0.0842 ...
  - attr(*, ".internal.selfref")=<externalptr> 
+ ```
