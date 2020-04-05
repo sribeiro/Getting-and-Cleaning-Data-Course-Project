@@ -6,6 +6,16 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 - **data.table::merge()** to get the associated label for each activity ID (an alternative would be converting to factor and assign the activity labels)
 - summarization was done using data.table specific syntax by setting **j** = lapply(.SD, mean) and **by** = .(subject, activity). **.SD** contains the subset of data resulting from each grouping step minus the grouping columns/variables.
 
+The following files from the initial dataset is used:
+
+- features.txt - includes the descriptions for features measured
+- train/X_train.txt - includes the measurements of the features in train set (one row - 1 measurement of 561 features)
+- test/X_test.txt - includes the measurements of the features in test set
+- train/subject_train.txt - subject for each measurement from the train set
+- test/subject_test.txt - subject for each measurement from the test set
+- train/y_train.txt - activity (from 1 to 6) for each measurement from the train set
+- test/y_test.txt - activity (from 1 to 6) for each measurement from the test set
+
 ### Data description
 The variables in the data X are sensor signals measured with waist-mounted smartphone from several subjects. The variable in the data Y indicates the activity type the subjects were engaging while recording.
 
@@ -16,8 +26,8 @@ The variables in the data X are sensor signals measured with waist-mounted smart
 4. Replace activity IDs by its labels
 5. Calculate a seperate dataset with the average of all measures grouped by subject and activity type
 
-### New dataset
-The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average of each activity type for all subjects.
+### Output, a tidy dataset
+The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average of each measure group by activity type and subject.
 
 ### Instructions given to calculate the final tidy dataset
 
