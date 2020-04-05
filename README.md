@@ -7,7 +7,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 - summarization was done using data.table specific syntax by setting **j** = lapply(.SD, mean) and **by** = .(subject, activity). **.SD** contains the subset of data resulting from each grouping step minus the grouping columns/variables.
 
 ### Data description
-The variables in the data X are sensor signals measured with waist-mounted smartphone from 30 subjects. The variable in the data Y indicates the activity type the subjects were engaging while recording.
+The variables in the data X are sensor signals measured with waist-mounted smartphone from several subjects. The variable in the data Y indicates the activity type the subjects were engaging while recording.
 
 ### Code explaination
 1. Load all files containing recordings, feature names and activity labels.
